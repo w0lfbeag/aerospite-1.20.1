@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "aerospite",
+	"version": "${version}",
+	"name": "aerospite",
+	"description": "Magic!",
+	"authors": [
+		"Wolfbeag"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/aerospite/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.wolfbeag.aerospite.Aerospite"
+		],
+		"client": [
+			"net.wolfbeag.aerospite.AerospiteClient"
+		],
+		"fabric-datagen": [
+			"net.wolfbeag.aerospite.AerospiteDataGenerator"
+		]
+	},
+	"mixins": [
+		"aerospite.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
