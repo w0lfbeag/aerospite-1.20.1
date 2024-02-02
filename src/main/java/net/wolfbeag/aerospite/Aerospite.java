@@ -2,6 +2,7 @@ package net.wolfbeag.aerospite;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.wolfbeag.aerospite.block.ModBlocks;
 import net.wolfbeag.aerospite.item.ModItems;
 import net.wolfbeag.aerospite.item.ModItemsGroups;
 import org.slf4j.Logger;
@@ -15,6 +16,8 @@ public static final String MOD_ID = "aerospite";
 	public void onInitialize() {
 
 		ModItemsGroups.registerItemGroups();
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

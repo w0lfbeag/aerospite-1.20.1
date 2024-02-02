@@ -8,6 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.wolfbeag.aerospite.Aerospite;
+import net.wolfbeag.aerospite.block.ModBlocks;
 
 public class ModItemsGroups {
     public static final ItemGroup AEROSPITE = Registry.register(Registries.ITEM_GROUP,
@@ -15,6 +16,8 @@ public class ModItemsGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.aerospite"))
                     .icon(() -> new ItemStack(ModItems.AEROSHARD)).entries((displayContext, entries) -> {
                     entries.add(ModItems.AEROSHARD);
+
+                    entries.add(ModBlocks.AEROSHARD_ORE);
 
                     }).build());
     public static void registerItemGroups(){

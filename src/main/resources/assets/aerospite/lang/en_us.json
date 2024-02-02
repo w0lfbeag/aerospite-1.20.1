@@ -1,4 +1,7 @@
 {
-  "item.aerospite.aeroshard": "Aero shard",
-  "itemgroup.aerospite" "Aerospite"
+  "item.aerospite.aeroshard": "Aeroshard",
+
+  "block.aerospite.aeroshard_ore": "Aeroshard ore",
+
+  "itemgroup.aerospite": "Aerospite"
 }
