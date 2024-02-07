@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "aerospite:aeroshard_block"
+    }
+  ],
+  "result": {
+    "item": "aerospite:aeroshard",
+    "count": 9
+  }
+}

@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "models": "aerospite:block/aeroshard_ore"
+      "model": "aerospite:block/aeroshard_ore"
     }
   }
 }

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "aerospite:aeroshard"
+    }
+  },
+  "result": {
+    "item": "aerospite:aeroshard_block"
+  }
+}

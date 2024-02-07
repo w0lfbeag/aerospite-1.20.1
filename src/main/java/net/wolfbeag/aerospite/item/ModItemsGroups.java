@@ -18,6 +18,7 @@ public class ModItemsGroups {
                     entries.add(ModItems.AEROSHARD);
 
                     entries.add(ModBlocks.AEROSHARD_ORE);
+                    entries.add(ModBlocks.AEROSHARD_BLOCK);
 
                     }).build());
     public static void registerItemGroups(){

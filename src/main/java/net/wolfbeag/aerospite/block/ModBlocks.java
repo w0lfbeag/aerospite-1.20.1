@@ -15,6 +15,8 @@ import net.wolfbeag.aerospite.Aerospite;
 public class ModBlocks {
     public static final Block AEROSHARD_ORE = registerBlock("aeroshard_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE)));
+    public static final Block AEROSHARD_BLOCK = registerBlock("aeroshard_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_BLOCK)));
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(Aerospite.MOD_ID, name), block);
