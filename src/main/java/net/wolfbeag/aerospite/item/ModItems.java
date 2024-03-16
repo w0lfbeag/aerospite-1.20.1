@@ -24,7 +24,6 @@ public class ModItems {
 
     public static void registerModItems(){
     Aerospite.LOGGER.info("Registering Mod Items for " + Aerospite.MOD_ID);
-    ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientsTabItemGroup);
     }
 
 
